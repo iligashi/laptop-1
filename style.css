@@ -1,0 +1,249 @@
+
+.background{
+    background-image: url(back.jpg);
+}
+
+.software{
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-size: 20px;
+   color: #f1f1f1;
+   margin-top: 20px;
+   transition: 0.5s;
+   letter-spacing: 7px;
+}
+.list{
+    text-align: center;
+    border-radius: 40px;
+}
+.list ul {
+    display: inline-flex;
+    list-style: none;
+}
+.list ul li{
+    width: 180px;
+    padding: 13px;
+    margin: -9px;
+}
+.list ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.home1{
+    font-family: sans-serif;
+}
+.home1:hover{
+    background-color: rgba(126, 139, 170, 0.185);
+    border-radius: 15px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.about1{
+ 
+    font-family: 'Asp-font-old';
+    font-style: normal;
+    font-weight: 300;
+    src: url('chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/open-sans/open-sans-v15-latin_latin-ext-300.eot');
+}
+.about1:hover{
+    background-color: rgba(126, 139, 170, 0.185);
+    border-radius: 15px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+.contact1{
+    font-family: sans-serif;
+}
+.contact1:hover{
+    background-color: rgba(126, 139, 170, 0.185);
+    border-radius: 15px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.btn1{
+  width: 90px;
+  height: 30px;
+  float: right;
+  margin-bottom: 25px;
+ background-color: transparent;
+  text-transform: uppercase;
+  color: #f1f1f1;
+}
+.btn1:hover{
+    background-color: rgba(214, 206, 206, 0.185);
+    border-radius: 10px 12px;
+    cursor: pointer;
+}
+#homepage,
+#aboutus,
+#contact-us {
+    display: none;
+}
+#log-in-form{
+    display: none;
+    
+}
+.first-btn{
+display: none;
+}
+
+#fullname{
+    margin-right: 450px;
+    margin-left: 500px;
+    margin-top: 90px;
+   
+}
+.color{
+    background-color: rgba(56, 45, 202, 0.301);
+}
+  .buttoni {   
+    background-color: rgb(12, 12, 14);   
+    width: 100%;  
+     color: rgb(255, 255, 255);   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      }   
+form {   
+     border: 3px solid #f1f1f1;   
+ }   
+input[type=text], input[type=password] {   
+     width: 100%;   
+     margin: 8px 0;  
+     padding: 12px 20px;   
+     display: inline-block;   
+     border: 2px solid rgba(255, 255, 255, 0.171);   
+     box-sizing: border-box;   
+ }  
+.buttoni:hover {   
+     opacity: 0.7;   
+ }   
+.cancelbtn {   
+     width: auto;   
+     padding: 10px 18px;  
+     margin: 10px 5px;  
+ }   
+     
+  
+.container {   
+     padding: 25px;   
+     background-color: rgba(126, 139, 170, 0.185);  
+ } 
+    .H1{
+        font-size: 55px;
+        color: white;
+        
+        margin-top: 230px;
+        margin-left: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .paragraf{
+        font-size: 20px;
+        color: white;
+        margin-left: 80px;
+    }
+    .btn-firstpage{
+        margin-left: 80px;
+        background-color: #f1f1f1;
+        color: #000;
+        width: 140px;
+        height: 50px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .h1-2{
+        color: white;
+        font-size: 40px;
+    }
+    .h1-3{
+        color: white;
+        margin-top: 90px;
+        margin-left: 80px;
+        font-size: 70px;
+    }
+    .paragrafi-2{
+        color: white;
+        max-width: 700px;
+        margin-top: 90px;
+        margin-left: 80px;
+        font-size: 27px;
+        
+    }
+  .images{
+      background-color:rgba(255, 255, 255, 0.11);
+      margin-left: 180px;
+      border-radius: 12px 12px;
+  }
+  .info-1 a{
+      margin-left:700px ;
+      color: white;
+      font-size: 23px;
+      text-decoration: none;
+  }
+  .textbox-1{
+      width: 310px;
+      height: 39px;
+      margin-left: 200px;
+      color: #000;
+      font-size: 18px;
+      
+  }
+  .textbox-2{
+    width: 310px;
+    height: 39px;
+    margin-left: 200px;
+    color: #000;
+    font-size: 18px;
+}
+.textbox-3{
+    width: 310px;
+    height: 39px;
+    margin-left: 200px;
+    color: #000;
+    font-size: 18px;
+}.textbox-4{
+    width: 310px;
+    height: 39px;
+    margin-left: 200px;
+    color: #000;
+    font-size: 18px;
+}
+ .textbox-1-2{
+     display: inline-flex;
+     margin-top: 110px;
+ }
+ .textbox-3-4{
+     display: inline-flex;
+     margin-top: 110px;
+ }
+ .textbox-5{
+     width: 830px;
+     height: 200px;
+     margin-left: 200px;
+     line-height: 30px;
+     font-size: 20px;
+
+ }
+ .button-contactus{
+     width: 140px;
+     height: 50px;
+     margin-top: 30px;
+     margin-left: 220px;
+     background-color: rgba(255, 255, 255, 0.185);
+     color: #000;
+     font-size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .black{
+     background-color: rgba(0, 0, 0, 0.178);
+     border-radius: 20px 20px;
+ }
